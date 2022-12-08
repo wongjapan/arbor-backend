@@ -36,7 +36,7 @@ app.get("/price", async function (req, res) {
   }
 });
 
-port = process.env.PORT || 3005;
+port = process.env.PORT || 3000;
 
 app.listen(port, function () {
   console.log(`Arbor API running on port ${port}...`);
